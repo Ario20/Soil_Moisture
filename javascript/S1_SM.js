@@ -94,7 +94,6 @@ var parameter = {//1. Data Selection
               APPLY_TERRAIN_FLATTENING: true,
               DEM: ee.Image('users/kennethcassar/DEM/Bluesky_DTM_Clip'),//ee.Image('USGS/SRTMGL1_003'),
               TERRAIN_FLATTENING_MODEL: 'VOLUME',
-              TERRAIN_FLATTENING_ADDITIONAL_LAYOVER_SHADOW_BUFFER: 0,
               //5. Output
               FORMAT : 'DB',
               CLIP_TO_ROI: true,
